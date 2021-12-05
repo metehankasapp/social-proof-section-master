@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+.main-ctr{
+    padding: 12rem 16rem;
+}
+
+.header-area{
+    width: 500px;
+    margin-bottom: 8rem;
+}
+.header-purple h5{
+    font-weight: 700;
+    font-size: 48px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 2rem;
+}
+
+.header-text{
+
+    font-size: 16px;
+    color: hsl(303, 10%, 53%);
+}
+
+.rate-container{
+    padding: 1.5rem 3rem;
+    background-color: hsl(300, 24%, 96%);
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    width: 300px
+}

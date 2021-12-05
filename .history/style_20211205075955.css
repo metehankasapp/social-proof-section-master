@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+.main-ctr{
+    padding: 12rem 16rem;
+}
+
+.header-area{
+    width: 450px;
+}
+.header-purple h5{
+    font-weight: 700;
+    font-size: 45px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 2rem;
+}
+
+.header-text{
+    color: hsl(303, 10%, 53%);
+}

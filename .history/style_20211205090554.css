@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-size: cover;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Spartan", sans-serif;
+  padding: 12rem 16rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-col {
+  padding-left: 100px;
+}
+.header-ctr {
+  margin-bottom: 8rem;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.header-area {
+  width: 500px;
+}
+.header-purple h5 {
+  font-weight: 700;
+  font-size: 44px;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 2rem;
+}
+
+.header-text {
+  font-size: 16px;
+  color: hsl(303, 10%, 53%);
+}
+
+.rate-container {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding: 2rem 3rem;
+  background-color: hsl(300, 24%, 96%);
+  font-size: 14px;
+  border-radius: 10px;
+  width: 440px;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.rate-container:nth-child(2) {
+  margin-left: 4rem;
+}
+.rate-container:nth-child(3) {
+  margin-left: 8rem;
+}
+
+.stars {
+  margin-right: 3rem;
+}
+
+.card-item {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 3rem;
+  max-width: 350px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+
+.card-ctr{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-ctr:nth-child(1){
+    align-self:baseline;
+}
+
+.card-ctr:nth-child(2){
+    align-self:center;
+    padding-top: 4rem;
+}
+
+.card-ctr:nth-child(3){
+    align-self: flex-end;
+
+    padding-top: 8rem;
+}
+
+.card-headerr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  display: inline-block;
+  width: 40px !important;
+}
+
+.card-item img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card-text {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.card-fs {
+  color: hsl(300, 24%, 96%);
+  font-size: 13px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.card-job {
+  color: hsl(300, 24%, 96%);
+  font-size: 13px;
+  margin-bottom: 0;
+  font-weight: 200;
+  color: hsl(333, 80%, 67%);
+}
+
+.card-second p {
+  margin-bottom: 0;
+  color: hsl(300, 24%, 96%);
+  font-size: 13px;
+  font-weight: 300;
+}
